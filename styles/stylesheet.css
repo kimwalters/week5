@@ -1,0 +1,92 @@
+* { padding: 0;
+    margin: 0; }
+
+header { background-color: #BDDE7C;
+         margin: 1rem 1rem 0rem 1rem;
+         width: 57%; }
+
+h1 { text-transform: uppercase; 
+     font-size: 2rem;
+     color: black;
+     font-family: "Century Gothic", sans-serif;
+     font-weight: 100; 
+     padding: 1.5rem 0rem 0rem 1rem; }
+
+h2 { text-transform: uppercase; 
+     font-size: 1rem;
+     font-family: "Century Gothic", sans-serif;
+     padding: 0rem 0rem 3rem 1rem;
+     font-weight: 100; }
+
+header nav { background-color: white;
+             width: 100%; 
+             padding: .5rem 0rem .5rem 2rem; }
+
+header nav ul { text-transform: uppercase;
+                list-style: none; }
+
+header nav ul li { display: inline;
+                   padding: 1rem 1rem;
+                   font-family: "Century Gothic", sans-serif;}
+
+header nav ul a { color: black;
+                  text-decoration: none; }
+
+div.left-block { float: left;
+                 width: 17%; }
+
+nav.left { background-color: #7CDEDE;
+           margin: 0rem 1rem 1rem 1rem; 
+           padding: 3rem 0rem 3rem 3rem; }
+
+nav.left ul { text-transform: uppercase;
+              list-style: none; }
+
+nav.left ul li { padding: 1rem 0rem 0rem 0rem;
+                 font-size: 1rem;
+                 font-family: "Century Gothic", sans-serif; }
+
+nav.left ul li a { color: white;
+                   text-decoration: none; }
+
+div.block { background-color: #69C6F5; 
+            margin: 1rem;
+            width: 86%; 
+            height: 10.5rem; }
+
+section.main { margin: 0rem 1rem 1rem 0rem;
+               width: 60%; 
+               float: left; }
+
+section.main h3 { background-color: #CCCC49;
+                  color: white;
+                  text-transform: uppercase;
+                  padding: 1rem 1rem 1rem 3rem;
+                  margin-bottom: 2rem;
+                  font-weight: 100; 
+                  font-size: 1.5rem; 
+                  font-family: "Century Gothic", sans-serif;
+                  width: 61%; }
+
+section.main p { color: gray;
+                 font-size: .85rem;
+                 line-height: 1.1rem;
+                 padding: 1rem 3rem 0rem 3rem;
+                 font-family: sans-serif;
+                 width: 55%; }
+
+footer { background-color: gray;
+         color: black;
+         padding: .25rem 1rem .25rem 3rem;
+         float: left; 
+         width: 36%;
+         margin: 2.75rem 0rem 0rem 0rem; }
+
+.fa { font-size: 1rem;
+      float: right;
+      margin: .25rem; }
+
+.round { color: gray;
+         background-color: #303030;
+         padding: .35rem .5rem;
+         border-radius: 50%; }
